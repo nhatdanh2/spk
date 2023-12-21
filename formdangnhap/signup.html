@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sigup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="nav">
+         <a href="./formdangnhap.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+         <a href="../index-1.html"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+    <div class="home">   
+    <form class="form_login" onsubmit="signup(e)">
+        <h1>Đăng Ký</h1>
+        <div class="login_user">
+            <input id="email" type="text" placeholder=" " required>
+            <label class="login_label" for="">Tài Khoản</label>
+        </div>
+        <div class="password_user">
+            <input id="password" type="password" placeholder=" " required>
+            <label class="password_label" for="">Mật Khẩu</label>
+        </div>
+        <div class="password_user ">
+            <input id="password" type="password" placeholder=" " required>
+            <label class="password_label" for="">Lập Lại Mật Khẩu</label>
+        </div>
+        <div class="checkbox_container">
+            <div class="checkbox_man">
+                <input type="checkbox" class="checkbox" >
+                <label for="" class="man">Nam</label>
+            </div>
+            <div class="checkbox_woman">
+                <input type="checkbox" class="checkbox" >
+                <label for="" class="woman">Nữ</label>
+            </div>
+            <div class="checkbox_different">
+                <input type="checkbox" class="checkbox">
+                <label for="" class="different">Khác</label>
+            </div>
+        </div>
+        <a href="./login.html">Bạn Đã Có Tài Khoản</a>
+        <button id="button" > Hoàn Tất</button>
+    </form>
+    <script src="./formdangky.js"></script>
+</body>
+
+</html>

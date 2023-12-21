@@ -7,22 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="./login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script href="./formdangnhap.js"></script>
 </head>
-<body>
-    <div class="home_big">
-    <div class="home">
-        <h1 class="header">login</h1>
-        <div class="user_login">
-            <input type="text" id="email">
-            <label for="text" class="email_label" ><i class="fa fa-user" aria-hidden="true"></i>User</label>
+<body><div class="nav">
+         <a href="../trangchu/index.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+         <a href="../trangchu/index.html"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+    <div class="home">   
+    <from class="form_login" onsubmit="login()">
+        <h1>Đăng Nhập</h1>
+        <div class="login_user">
+            <input  id="email" type="text" placeholder=" " required>
+            <label class="login_label" for="email">Tài Khoản</label>
         </div>
-        <div class="password_login">
-            <input type="text" id="password">
-            <label for="text" class="password_label"><i class="fa fa-lock" aria-hidden="true"></i>Password</label>
+        <div class="password_user">
+            <input id="password" type="password" placeholder=" " required>
+            <label class="password_label" for="password">Mật Khẩu</label>
         </div>
-        <a href="">create Account</a>
-        <button>Summit</button>
-    </div>
-   </div>
+        <a href="./signup.html">Bạn Chưa Có Tài Khoản</a>
+        <button id="button"> Hoàn Tất</button>
+    </from>
+    <script src="./formdangnhap.js"></script>
 </body>
 </html>
